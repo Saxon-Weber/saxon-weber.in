@@ -650,8 +650,9 @@ header:after,
 
 .creatingopportunities_listinner:hover,
 .creatingopportunities_listinner.active {
-    background: #66BB6A;
+    background: #FFFFFF;
     box-shadow: 0px 26px 26px rgba(118, 196, 125, 0.312227);
+    
 }
 
 .creatingopportunities_listinner .creatingopportunities_listimg {
@@ -687,7 +688,7 @@ header:after,
 
 .creatingopportunities_listinner:hover h6,
 .creatingopportunities_listinner.active h6 {
-    color: #fff;
+    color: black;
 }
 
 .creatingopportunities_listinner ul {
@@ -712,7 +713,7 @@ header:after,
 
 .creatingopportunities_listinner:hover ul li,
 .creatingopportunities_listinner.active ul li {
-    color: #fff;
+    color: black;
 }
 
 .creatingopportunities_listinner ul li:before {
@@ -720,6 +721,7 @@ header:after,
     top: 9px;
     left: 0;
     content: "";
+    color: #263238;
     width: 14px;
     height: 14px;
     background: url("../images/creatingopportunities_circle.png") 0 0 no-repeat;
@@ -4457,3 +4459,82 @@ padding-bottom:12px;}
         font-size: 14px;
         font-weight: 400;
    }
+   .new-footer-end-section
+{
+	background-color: #545454;
+	padding: 30px 0;
+}
+.new-footer-end-section-img img
+{
+	opacity: 0.7;
+}
+.new-footer-end-section-detail h4
+{
+	color: #b5b5b5;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.new-footer-end-section-detail p
+{
+	    color: black;
+    line-height: 22px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.section-phone {
+    background-image: url(/images/GET-ON-THE-PHONE-WITH-US.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 150%;
+    text-align:center;
+    position: relative;
+  }
+  .phone-area h1{
+      color: white;
+      font-size: 61px;
+      padding-bottom: 28px;
+  }
+  .btn-mobile{
+	/*position: absolute; */
+    bottom: 14px;
+    padding: 12px 24px;
+    border: none;
+    font-weight: 400;
+    background: #ffffff;
+    color: #008037;
+    left: 45%;
+	font-size:14px;
+	letter-spacing:0.7px;
+}
+.phone-area{
+	height:260px;
+}
+.coverage-area{
+	background:#008037;
+	text-align:center;
+}
+.coverage-div img{
+	width: 60%;
+    padding: 50px;
+    text-align: center;
+}
+.coverage-after{
+	/*padding-top: 40px;*/
+	text-align:center;
+}
+.coverage-content{
+    padding:0px 100px
+}
+.coverage-content p , span{
+	color: black;
+    letter-spacing: 0.7px;
+    font-size: 14px;
+    font-weight: 400;
+	justify-content:center;
+    /*font-size: 23px;
+    font-weight: 500;
+    font-family: 'Cormorant Unicase', serif;*/
+}
