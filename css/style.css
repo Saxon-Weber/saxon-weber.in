@@ -275,8 +275,8 @@ header:after,
 
 .logo_info {
     float: left;
-    width: 173px;
-    margin: 2px 65px 0 0;
+    width: 300px;
+    margin: 3px 105px 0 0;
 }
 
 .logo_info img {
@@ -285,7 +285,7 @@ header:after,
 }
 
 .nav_info {
-    float: left;
+    float: right;
     padding: 12px 0 0 0;
 }
 
@@ -296,11 +296,11 @@ header:after,
 }
 
 .nav_info ul li {
-    margin: 0 30px 0 0;
+    margin: 0 40px 0 0;
     padding: 0;
     display: inline-block;
-    vertical-align: middle;
-    font-size: 16px;
+    vertical-align:right;
+    font-size: 18px;
     color: #000;
     font-family: 'chivoregular';
 }
@@ -534,16 +534,20 @@ header:after,
 }
 
 .banner_list .banner_txt .banner_txtinner {
-    max-width: 40%;
+    max-width: 100%;
+    text-align: center;
+     margin-top: 200px;
 }
 
-.banner_list .banner_txt h3 {
+.banner_list .banner_txt h1 {
     margin: 0 0 30px 0;
     padding: 0;
-    font-size: 38px;
-    line-height: 48px;
-    font-family: 'chivobold';
-    visibility: hidden;
+    font-size: 100px;
+    line-height: 58px;
+   
+    color:#2c3e50;
+    text-align: center;
+   
 }
 
 .banner_list .banner_txt h3 span {
@@ -551,13 +555,14 @@ header:after,
 }
 
 .banner_list .banner_txt h6 {
-    margin: 0 0 50px 0;
-    padding: 0;
-    font-size: 18px;
-    line-height: 32px;
-    color: #000000;
-    font-weight: normal;
-    visibility: hidden;
+    font-weight: 600;
+      line-height: 24px;
+      font-family: 'Libre Baskerville', serif;
+      font-style: italic;
+      font-size: 60px;
+      color: #008037;
+      padding: 39px 10px;
+      text-align: center;
 }
 
 .banner_list .banner_txt .green_btn {
@@ -4537,4 +4542,104 @@ padding-bottom:12px;}
     /*font-size: 23px;
     font-weight: 500;
     font-family: 'Cormorant Unicase', serif;*/
+}
+.word {
+    /*margin: auto;
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;*/
+      /* letter-spacing: 0;
+      font-weight: 600;
+      line-height: 24px;
+      font-family: 'Libre Baskerville', serif;
+      font-style: italic;
+      font-size: 60px;
+      color: #008037;
+      padding: 39px 10px;
+      text-align: center; */
+  }
+  .main-nav a {
+    
+    text-decoration: none;
+  
+
+    padding: 10px;
+    display: block;
+    background-color:black;
+    border: 1px solid #333;
+
+    
+  }
+  
+  .main-nav a:hover {
+    background-color:white;
+    border: 1px solid #333;
+    color: white;
+   
+  }
+  .nav_info ul li.main-nav ,
+.nav_info ul li.main-nav a  {
+    color: white
+}
+.nav_info ul li a:hover{
+    color: black;
+} 
+.topnav-right {
+  float: right;
+}
+.landingInfo{
+    margin-top:10px;
+    margin: bottom 10000px;
+}
+.coverage-after{
+	/*padding-top: 40px;*/
+	text-align:center;
+    margin-bottom: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+.second-iocon{
+	color: #545454;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 7px;
+	text-decoration:none;
+    margin-bottom: 10px;
+}
+.pitchbook{
+    width: 27px;
+    position: absolute;
+    margin-top: 92;
+    margin-bottom: 10;
+}
+
+.new-footer-end-section-img img
+{
+	opacity: 0.7;
+    width: 300px;
+    margin-left: 50px;
+   
+    
+}
+
+.new-footer-end-section-inner h4{
+    color:white;
+    text-align: left;
+    margin-left: 400px;
+   margin-top: -120px;
+}
+
+.new-footer-end-section-inner p{
+    color:whitesmoke;
+    line-height: 22px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 100px;
+   
+}
+.new-footer-end-section-inner a{
+    color:green;
 }

@@ -206,7 +206,7 @@
     }
 
     .banner_list .banner_txt .banner_txtinner {
-        max-width: 50%;
+        max-width: 30%;
     }
 
     .banner_list .banner_txt h3 {
@@ -953,16 +953,20 @@
         width: 100%;
         max-width: 100%;
         text-align: center;
+        margin-top: -250px;
+        
     }
 
-    .banner_list .banner_txt h3 {
-        font-size: 24px;
+    .banner_list .banner_txt h1 {
+        font-size: 40px;
         line-height: 34px;
         visibility: visible;
     }
 
     .banner_list .banner_txt h6 {
         visibility: visible;
+        font-size: 30px;
+        line-height: 34px;
     }
 
     .banner_list .banner_txt .green_btn,
