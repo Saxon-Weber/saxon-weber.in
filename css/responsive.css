@@ -2337,8 +2337,9 @@
     font-weight: 500;
     margin-bottom: 5px;
     margin-top: 10px;
-    text-align: left;
+    text-align: justify,left;
     margin-left: 00px;
+    
     font-weight: bolder;
     }
     .new-footer-end-section-inner p
@@ -2350,7 +2351,7 @@
         font-weight: 500;
         margin-left: 3px;
         margin-right: -0px;
-        
+        text-align: justify;
         
        
     }
