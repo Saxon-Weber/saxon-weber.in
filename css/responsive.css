@@ -2358,3 +2358,85 @@
     }
     
 }
+@media (min-width: 961px) {
+
+    header .container_info,
+    .banner_info .container_info,
+    .trustus_direct_info .container_info,
+    .aboutbanner_info .container_info,
+    .growthdevelopment_info .container_info,
+    .ourfounders_info .container_info,
+    .careerbanner_info .container_info,
+    .maurisnontempor_info .container_info,
+    .privacypolicy_info .container_info {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .logo_info {
+        margin: 2px 25px 0 0;
+        float: left;
+    width: 300px;
+    margin: 10px 105px 0 0;
+    margin-left: -150px;
+    }
+    .nav_info {
+        float: right;
+        margin-right:-160px;
+        padding: 12px 0 0 0;
+    }
+    .ourstandpoint_info .freshproducesupply_inner .freshproducesupply_bg {
+        right: -80px;
+        width: 80px;
+        height: 126px;
+        background-size: cover;
+    }
+
+    .growthdevelopment_list.growthdevelopment_list1 {
+        width: 120px;
+    }
+
+    .growthdevelopment_list.growthdevelopment_list2 {
+        left: 250px;
+    }
+
+    .growthdevelopment_list.growthdevelopment_list3 {
+        left: 490px;
+    }
+
+    .growthdevelopment_list.growthdevelopment_list4 {
+        left: 750px;
+    }
+
+    .growthdevelopment_list.growthdevelopment_list5 {
+        width: 130px;
+    }
+
+    .peopleaboutninjacart_list .peopleaboutninjacart_listview p {
+        min-height: 160px;
+    }
+
+    .peopleaboutninjacart_list .slick-center .peopleaboutninjacart_listview p {
+        min-height: 192px;
+    }
+
+    .ourteam_detailsviewcontinner {
+        max-height: 420px;
+    }
+
+    .ourteam_detailsview .ourteam_detailsviewimg img {
+        max-width: 70%;
+    }
+
+    .aboutus_section_txt .banner_txtbg {
+        left: -70px;
+    }
+
+    .trustus_direct_list ul li .trustus_direct_listinner{
+        padding: 50px 70px 50px 20px;
+    }
+
+    .trustus_direct_list ul li .trustus_direct_listinner .trustus_direct_arrow{
+        right: 20px;
+    }
+}
