@@ -228,7 +228,7 @@ body.sell {
 
 header {
     width: 100%;
-    padding: 40px 0;
+    padding: 10px 0;
     position: fixed;
     background: #fff;
     top: 0;
@@ -247,7 +247,7 @@ header.not-fixed {
 
 header.fixed,
 .home header.fixed {
-    padding: 20px 0;
+    padding: 10px 0;
     background: #fff;
     -webkit-box-shadow: 0 0 10px 0 rgba(50, 50, 50, .55);
     -moz-box-shadow: 0 0 10px 0 rgba(50, 50, 50, .55);
@@ -276,7 +276,8 @@ header:after,
 .logo_info {
     float: left;
     width: 300px;
-    margin: 3px 105px 0 0;
+    margin: 10px 105px 0 0;
+    margin-left: -300px;
 }
 
 .logo_info img {
@@ -286,6 +287,7 @@ header:after,
 
 .nav_info {
     float: right;
+    margin-right:-290px;
     padding: 12px 0 0 0;
 }
 
@@ -302,7 +304,7 @@ header:after,
     vertical-align:right;
     font-size: 18px;
     color: #000;
-    font-family: 'chivoregular';
+    font-family:montserrat,sans-serif;
 }
 
 .nav_info ul li:last-child {
@@ -536,16 +538,17 @@ header:after,
 .banner_list .banner_txt .banner_txtinner {
     max-width: 100%;
     text-align: center;
-     margin-top: 200px;
+    
+     margin-top: 290px;
 }
 
 .banner_list .banner_txt h1 {
     margin: 0 0 30px 0;
     padding: 0;
-    font-size: 100px;
+    font-size: 98px;
     line-height: 58px;
-   
-    color:#2c3e50;
+    font-family: sans-serif;
+    color:white;
     text-align: center;
    
 }
@@ -555,14 +558,15 @@ header:after,
 }
 
 .banner_list .banner_txt h6 {
-    font-weight: 600;
-      line-height: 24px;
-      font-family: 'Libre Baskerville', serif;
-      font-style: italic;
+    font-weight: 100;
+      line-height: 14px;
       font-size: 60px;
-      color: #008037;
+      color:yellowgreen;
       padding: 39px 10px;
       text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      margin-top: -10px;
 }
 
 .banner_list .banner_txt .green_btn {
@@ -1358,7 +1362,7 @@ body.careers .peopleaboutninjacart_list .slick-arrow {
     height: 100%;
     padding: 50px 100px 50px 50px;
     position: relative;
-    background: url("../images/trustus_direct_bg.png") 0 0 no-repeat #FFFFFF;
+    
     background-size: cover;
     box-shadow: -1px 13px 20px #e4e5e6;
     border-radius: 5px;
@@ -1384,6 +1388,7 @@ body.careers .peopleaboutninjacart_list .slick-arrow {
     position: relative;
     top: 23px;
     line-height: 26px;
+    font-family: monsterrat,sans-serif;
 }
 
 .trustus_direct_list ul li .trustus_direct_listinner h6 {
@@ -1398,6 +1403,7 @@ body.careers .peopleaboutninjacart_list .slick-arrow {
     opacity: 0;
     visibility: hidden;
     line-height: 15px;
+    font-family: monsterrat,sans-serif;
 }
 
 .trustus_direct_list ul li .trustus_direct_listinner .trustus_direct_arrow {
@@ -4425,15 +4431,23 @@ footer {
 	color: #fff;
     font-size: 35px;
     padding-bottom: 12px;
+    font-family: sans-serif;
+}
+.section-newsletter p{
+    color: #fff;
+    font-family: monosterrat,sans-serif;
 }
 .newsletter-form input{
     padding: 20px;
     width: 215px;
 	margin-right:10px;
 	margin-top:15px;
+    font-family: monosterrat,sans-serif;
 }
 .newsletter-form select{
 	margin-top:15px;
+    font-family: monosterrat,sans-serif;
+    color: lightslategrey;
 }
 
 .newsletter-form{
@@ -4536,7 +4550,7 @@ padding-bottom:12px;}
 .coverage-content p , span{
 	color: black;
     letter-spacing: 0.7px;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
 	justify-content:center;
     /*font-size: 23px;
@@ -4561,12 +4575,13 @@ padding-bottom:12px;}
   .main-nav a {
     
     text-decoration: none;
-  
-
+   font-size: 14px;
+   font-family:montserrat,sans-serif;
     padding: 10px;
     display: block;
     background-color:black;
-    border: 1px solid #333;
+    border: 3px solid #333;
+    border-radius: 100px;
 
     
   }
@@ -4579,6 +4594,30 @@ padding-bottom:12px;}
   }
   .nav_info ul li.main-nav ,
 .nav_info ul li.main-nav a  {
+    color: white
+}
+.main-navv a {
+    
+    text-decoration: none;
+   font-size: 14px;
+  font-family:sans-serif;
+    padding: 10px;
+    display: block;
+    background-color:black;
+    border: 4px solid #333;
+    border-radius: 100px;
+
+    
+  }
+  
+  .main-navv a:hover {
+    background-color:white;
+    border: 1px solid #333;
+    color: white;
+   
+  }
+  .nav_info ul li.main-navv ,
+.nav_info ul li.main-navv a  {
     color: white
 }
 .nav_info ul li a:hover{
