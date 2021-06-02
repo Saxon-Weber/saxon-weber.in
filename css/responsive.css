@@ -1713,12 +1713,36 @@
     }
     .footer_top .footer_toplist1 {
         margin: 0;
-        
+        padding: 30px 15px ;
         -webkit-box-flex: 0;
         -ms-flex: 0 0 33.333%;
         flex: 0 0 33.333%;
         max-width: 100%;
         background-color:grey;
+      
+        
+    }
+    
+    .footer_companylegallist1 {
+        width: 100%;
+        padding: 10px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .footer_companylegallist1 h3{
+        padding: 0;
+      
+        font-family: sans-serif;
+        color:white;
+        
+       
+    }
+    .footer_companylegallist1 h7{
+        padding: 0;
+        
+        font-family: sans-serif;
+        color:white;
+        
     }
 
    
