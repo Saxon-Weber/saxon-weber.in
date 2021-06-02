@@ -1722,6 +1722,11 @@
       
         
     }
+    .footer_top .footer_toplist1:last-child{
+        -ms-flex: 0 0 33.333%;
+        flex: 0 0 33.333%;
+        max-width: 100%;
+    }
     
     .footer_companylegallist1 {
         width: 100%;
