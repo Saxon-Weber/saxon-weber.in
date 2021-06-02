@@ -1711,6 +1711,19 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .footer_top .footer_toplist1 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 10px 0;
+    }
+
+    .footer_top .footer_toplist1:last-child {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 10px 0;
+    }
 
     .peopleaboutninjacart_list .peopleaboutninjacart_listview {
         padding: 0;
