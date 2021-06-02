@@ -1712,17 +1712,23 @@
         max-width: 100%;
     }
     .footer_top .footer_toplist1 {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-        padding: 10px 0;
+        margin: 0;
+        padding: 30px 15px ;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+        flex: 0 0 33.333%;
+        max-width: 100%;
+        background-color:grey;
     }
 
     .footer_top .footer_toplist1:last-child {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-        padding: 10px 0;
+        margin: 0;
+        padding: 30px 15px ;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+        flex: 0 0 33.333%;
+        max-width: 100%;
+        background-color:grey;
     }
 
     .peopleaboutninjacart_list .peopleaboutninjacart_listview {
